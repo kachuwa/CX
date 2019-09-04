@@ -1,0 +1,61 @@
+@import '../themes/themes';
+
+button + button {
+  margin-left: 5px;
+}
+
+input:not([type="checkbox"]) {
+  width: 280px;
+}
+
+label span {
+  color: $text-color;
+  font-size: 15px;
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+.description {
+  max-width: $max-readable-width;
+  color: #808080;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.ias-accordion-group {
+  max-width: $max-readable-width;
+}
+
+.ias-menu {
+  button + button {
+    margin-left: 0;
+  }
+}
+
+.ias-menu-content {
+  min-width: 120px;
+
+  .menu-separator {
+    height: 0;
+    margin: 5px 0;
+    border-top: 1px solid #626e72;
+  }
+}
+
+.status-indicator {
+  margin: 5px 0;
+}
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+
+  .scrollable-content {
+    flex-grow: 1;
+    overflow: auto;
+    position: relative;
+  }
+}

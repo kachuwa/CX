@@ -1,0 +1,86 @@
+label:not(:first-of-type) {
+  margin-left: 0;
+}
+
+.ias-app-bar {
+  &.micro-bg-color {
+    background: #0073e7;
+  }
+
+  .ias-avatar,
+  .ias-heading {
+    cursor: pointer;
+  }
+}
+
+#brand {
+  align-items: stretch;
+  background: #fff;
+  display: flex;
+
+  .brand-color-box {
+    background: #0073e7;
+    height: 200px;
+    position: relative;
+    width: 100%;
+  }
+
+  .brand-family-box {
+    height: 257px;
+    position: relative;
+    width: 20%;
+  }
+
+  .ias-logo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+  }
+
+  .microfocus-logo {
+    height: 12%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  .security-logo-box {
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    right: 15px;
+    width: 100%;
+
+    .security-logo {
+      margin-left: 10px;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #detail-column {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+#ias-about {
+  .ias-about-details {
+    line-height: 1.2em;
+    margin-top: 20px;
+  }
+
+  .ias-about-product-title {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.1em;
+    text-transform: uppercase;
+  }
+
+  .product-description {
+    margin-top: 10px;
+  }
+}

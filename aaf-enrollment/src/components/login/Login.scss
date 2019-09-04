@@ -1,0 +1,57 @@
+@import '../../themes/themes';
+
+.authentication-method i, .authentication-method span {
+  vertical-align: middle;
+}
+
+.authentication-method i {
+  color: #007cd0;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.chain-select {
+  border-radius: $border-radius;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: $link-padding;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    background-color: $link-bg-color-hover;
+    color: $link-text-color-hover;
+    text-decoration: none;
+    outline: none;
+  }
+
+  > i,
+  > span {
+    vertical-align: middle;
+  }
+
+  > i {
+    font-size: inherit;
+    margin-left: 5px;
+  }
+}
+
+.ias-menu-content {
+  span {
+    color: #b8b8b8;
+    display: block;
+    font-size: 12px;
+    margin: 5px 0 8px;
+  }
+}
+
+.login-form {
+  margin-left: 25px;
+}
+
+.login-help {
+  font-size: 13px;
+  margin-left: 80px;
+}
